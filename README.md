@@ -3,7 +3,7 @@
 
 
 ## 📡 UDP Protocol Test Scripts
-====================================
+
 A minimal Bash-based client-server implementation to test UDP communication.
 
 udp_server.sh – Simulates a simple UDP server using netcat, listening for incoming messages and replying with a test confirmation.
@@ -46,7 +46,7 @@ client
 
  
 ## 📡 TCP Protocol Test Scripts
-================================================
+
 A minimal Bash-based client-server implementation to test TCP communication.
 
 TCP_server.sh – Simulates a simple TCP server using netcat, listening for incoming messages and replying with a test confirmation.
@@ -128,7 +128,7 @@ client:
  
  
 ## 📡 HTTP Protocol Test Scripts
-==========================================
+
 A minimal Bash-based client-server implementation to test HTTP communication.
 
 HTTP_server.sh – Simulates a simple HTTP server using netcat, listening for incoming messages and replying with a test confirmation.
@@ -180,7 +180,7 @@ client:
 
  
 ## 📡 FTP Protocol Test Scripts
-===================================
+
 
 A minimal Bash-based client-server implementation to test FTP communication.
 
