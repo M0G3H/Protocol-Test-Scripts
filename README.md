@@ -120,5 +120,58 @@ client:
  
 	405730A3387E0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../ssl/record/ssl3_record.c:354:
 
+ 
+ 
+## 📡 HTTP Protocol Test Scripts
+A minimal Bash-based client-server implementation to test HTTP communication.
+
+HTTP_server.sh – Simulates a simple HTTP server using netcat, listening for incoming messages and replying with a test confirmation.
+
+HTTP_client.sh – Sends a test HTTP message to the server and displays the response.
+
+💡 Useful for debugging UDP connectivity and verifying network paths between devices.
+
+📥 Use [HTTP-Client.sh](https://github.com/M0G3H/Protocol-Test-Scripts/blob/main/http_client.sh) And [HTTP-Server.sh](https://github.com/M0G3H/Protocol-Test-Scripts/blob/main/http_server.sh)
+
+🚀 Test Resault
+
+Tool    = netcat
+protocol= http
+OS      = Ubuntu
+
+server:
+	root@Server:/home/admin/test# ./udp_server.sh
+ 
+		🚀 Starting UDP server on 10.0.0.10:1234
+		===========================================
+		Hello this is UDP Test from Client
+		✅ UDP test succeeded!
+	
+		✅ Request handled (1/1)
+		Server exiting after 1 request(s).
+		root@Server:/home/admin/test# ^C
+		root@Server:/home/admin/test# ./http_server.sh
+		🚀 Starting HTTP server on 10.0.0.10:1234
+		Press Ctrl+C to stop
+		GET /test HTTP/1.1
+		Host: example.com
+		Connection: close
+		------------------------------
+		✅ HTTP test succeeded!
+
+
+
+client:
+	root@Client:/home/user/test# ./http_client.sh
+ 
+	🔍 Testing HTTP server at 10.0.0.10:1234...
+	HTTP/1.1 200 OK
+	Content-Type: text/plain
+
+	Hello from Server!
+	✅ HTTP test succeeded!
+
+
+
 
 
