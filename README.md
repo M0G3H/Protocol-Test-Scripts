@@ -1,16 +1,17 @@
 # Protocol-Test-Scripts
 ## A minimal Bash-based client-server implementation to test communication best Protocols
 
-##🔧 Features:
-Simple UDP client-server model using netcat.
+🔧 ##Features:
 
-Real-time status messages at each key step (connection attempt, response, etc.).
+###Simple UDP client-server model using netcat.
 
-Timeout-based logic to ensure clean exits.
+###Real-time status messages at each key step (connection attempt, response, etc.).
 
-Colorful and emoji-enhanced feedback for clear terminal visibility.
+###Timeout-based logic to ensure clean exits.
 
-Ideal for network diagnostics, protocol testing, and education.
+###Colorful and emoji-enhanced feedback for clear terminal visibility.
+
+###Ideal for network diagnostics, protocol testing, and education.
 
 
 ## 📡 UDP Protocol Test Scripts
