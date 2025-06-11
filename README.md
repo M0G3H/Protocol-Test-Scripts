@@ -25,19 +25,15 @@ server
 		root@Server:/home/admin/config-file# nc -u -l -p 1234
   
 		hello
-  
 		hi
-  
 		are you server
-  
 		yes
-  
 		good luck!
-  
 		!?!?!?
 
 client
 		root@Client:/home/user# nc -u 10.0.0.10 1234
+  
 		hello
 		hi
 		are you server
