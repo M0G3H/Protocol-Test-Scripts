@@ -16,28 +16,24 @@ Use [Client.sh](https://github.com/M0G3H/Protocol-Test-Scripts/blob/main/udp_cli
 🚀 Test Resault
 
 Tool    = netcat
-
 protocol= UDP
-
 OS      = Ubuntu
 
 server
-		root@Server:/home/admin/config-file# nc -u -l -p 1234
-  
-		hello
-		hi
-		are you server
-		yes
-		good luck!
-		!?!?!?
+	root@Server:/home/admin/test# ./udp_server.sh
+ 
+	🚀 Starting UDP server on 10.0.0.10:1234
+	===========================================
+	Hello this is UDP Test from Client
+	✅ UDP test succeeded!
+	
+	✅ Request handled (1/1)
+	Server exiting after 1 request(s).
+
 
 client
-		root@Client:/home/user# nc -u 10.0.0.10 1234
-  
-		hello
-		hi
-		are you server
-		yes
-		good luck!
-		!?!?!?
-
+	root@Client:/home/user/test# ./udp_client.sh
+ 
+	🔍 Testing UDP server at 10.0.0.10:1234...
+	This is response from server
+	✅ UDP test succeeded!
