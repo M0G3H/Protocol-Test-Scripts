@@ -13,7 +13,7 @@ udp_client.sh – Sends a test UDP message to the server and displays the respon
 
 📥 Use [UDP-Client.sh](https://github.com/M0G3H/Protocol-Test-Scripts/blob/main/udp_client.sh) And [UDP-Server.sh](https://github.com/M0G3H/Protocol-Test-Scripts/blob/main/udp_server.sh)
 
-===================================================================================================================
+=================================================================
 
 🚀 Test Resault
 
