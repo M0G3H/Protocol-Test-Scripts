@@ -3,7 +3,6 @@
 
 ## 🔧Features:
 ### A minimal Bash-based client-server implementation to test communication best Protocols
-
 ### Simple UDP client-server model using netcat.
 
 ### Real-time status messages at each key step (connection attempt, response, etc.).
