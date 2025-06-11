@@ -15,27 +15,33 @@ Use [Client.sh](https://github.com/M0G3H/Protocol-Test-Scripts/blob/main/udp_cli
 
 🚀 Test Resault
 
-Tool    = netcat\n
+Tool    = netcat
 
-protocol= UDP\n
+protocol= UDP
 
-OS      = Ubuntu\n
+OS      = Ubuntu
 
-server\n
-		root@Server:/home/admin/config-file# nc -u -l -p 1234\n
-		hello\n
-		hi\n
-		are you server\n
-		yes\n
-		good luck!\n
-		!?!?!?\n
+server
+		root@Server:/home/admin/config-file# nc -u -l -p 1234
+  
+		hello
+  
+		hi
+  
+		are you server
+  
+		yes
+  
+		good luck!
+  
+		!?!?!?
 
-client\n
-		root@Client:/home/user# nc -u 10.0.0.10 1234\n
-		hello\n
-		hi\n
-		are you server\n
-		yes\n
-		good luck!\n
-		!?!?!?\n
+client
+		root@Client:/home/user# nc -u 10.0.0.10 1234
+		hello
+		hi
+		are you server
+		yes
+		good luck!
+		!?!?!?
 
