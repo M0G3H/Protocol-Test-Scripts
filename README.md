@@ -12,3 +12,28 @@ udp_client.sh – Sends a test UDP message to the server and displays the respon
 💡 Useful for debugging UDP connectivity and verifying network paths between devices.
 
 Use [Client.sh](https://github.com/M0G3H/Protocol-Test-Scripts/blob/main/udp_client.sh) And [Server.sh](https://github.com/M0G3H/Protocol-Test-Scripts/blob/main/udp_server.sh)
+
+🚀 Test Resault
+
+Tool    = netcat
+protocol= UDP
+OS      = Ubuntu
+
+server
+		root@Server:/home/admin/config-file# nc -u -l -p 1234
+		hello
+		hi
+		are you server
+		yes
+		good luck!
+		!?!?!?
+
+client
+		root@Client:/home/user# nc -u 10.0.0.10 1234
+		hello
+		hi
+		are you server
+		yes
+		good luck!
+		!?!?!?
+
