@@ -42,9 +42,9 @@ client
 ## 📡 TCP Protocol Test Scripts
 A minimal Bash-based client-server implementation to test TCP communication.
 
-TCP_server.sh – Simulates a simple UDP server using netcat, listening for incoming messages and replying with a test confirmation.
+TCP_server.sh – Simulates a simple TCP server using netcat, listening for incoming messages and replying with a test confirmation.
 
-TCP_client.sh – Sends a test UDP message to the server and displays the response.
+TCP_client.sh – Sends a test TCP message to the server and displays the response.
 
 💡 Useful for debugging UDP connectivity and verifying network paths between devices.
 
